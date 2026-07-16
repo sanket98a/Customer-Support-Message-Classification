@@ -73,6 +73,10 @@ pip install -r requirements.txt
 Start the Streamlit application:
 
 ```bash
+cd rag-chatbot
+```
+
+```bash
 streamlit run app.py
 ```
 
