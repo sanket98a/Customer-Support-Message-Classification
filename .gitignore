@@ -216,3 +216,39 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific ignores
+# Data files
+data/raw/
+data/processed/
+
+# Vector store indices (can be regenerated)
+vector_store/faiss_index/
+*.index
+*.faiss
+
+# Environment-specific files
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Large model files
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# Logs and temporary files
+*.log
+logs/
+temp/
+tmp/
